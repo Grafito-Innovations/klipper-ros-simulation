@@ -66,8 +66,6 @@ make menuconfig
 
 In the configuration menu:
 - Set **Micro-controller Architecture** to `(Linux process)`
-- Enable `[*] Enable extra low-level configuration options` (press Spacebar)
-- Enable `[*] Host/MCU Temperature sensors`
 - Press `Q` to quit, then `Y` to save
 
 Build and install the firmware:
