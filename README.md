@@ -61,6 +61,8 @@ Configure Klipper for simulation with virtual sensors:
 
 ```bash
 cd ~/klipper
+sudo cp ./scripts/klipper-mcu.service /etc/systemd/system/
+sudo systemctl enable klipper-mcu.service
 make menuconfig
 ```
 
